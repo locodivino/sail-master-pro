@@ -69,7 +69,7 @@ const Hero = ({ content, language, onLanguageChange }: HeroProps) => {
             <button className="btn-hero">
               {content.cta}
             </button>
-            <button className="btn-outline-light">
+            <button className="btn-outline-light flex items-center">
               <Phone className="w-5 h-5 mr-2" />
               +352 671 191 071
             </button>
