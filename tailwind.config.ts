@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,16 +55,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				nautical: {
+					navy: 'hsl(var(--nautical-navy))',
+					ocean: 'hsl(var(--nautical-ocean))',
+					'deep-blue': 'hsl(var(--nautical-deep-blue))',
+					'light-blue': 'hsl(var(--nautical-light-blue))',
+					gold: 'hsl(var(--nautical-gold))',
+					sand: 'hsl(var(--nautical-sand))',
+					gray: 'hsl(var(--nautical-gray))'
 				}
+			},
+			backgroundImage: {
+				'ocean-gradient': 'var(--gradient-ocean)',
+				'hero-gradient': 'var(--gradient-hero)',
+				'card-gradient': 'var(--gradient-card)',
+			},
+			boxShadow: {
+				'ocean': 'var(--shadow-ocean)',
+				'card': 'var(--shadow-card)',
+				'elevated': 'var(--shadow-elevated)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
