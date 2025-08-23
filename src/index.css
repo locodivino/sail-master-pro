@@ -144,7 +144,7 @@
   }
 
   .card-service {
-    @apply bg-gradient-to-br from-white to-white/95 border border-border/30 rounded-xl p-8 shadow-card hover:shadow-elevated transition-all duration-500 hover:-translate-y-2 group;
+    @apply bg-gradient-to-br from-white to-white/95 border border-border/30 rounded-xl p-8 shadow-card hover:shadow-elevated transition-all duration-500 hover:-translate-y-2;
   }
 
   /* Gradient Backgrounds */
