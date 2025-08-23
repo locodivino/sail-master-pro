@@ -54,24 +54,6 @@ const Hero = ({ content, language, onLanguageChange }: HeroProps) => {
       {/* Main Content */}
       <div className="relative z-10 container-padding text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Stats Bar */}
-          <div className="flex justify-center mb-8">
-            <div className="flex items-center gap-8 bg-white/10 backdrop-blur-md rounded-2xl px-8 py-4 border border-white/20">
-              <div className="flex items-center gap-2 text-white">
-                <Star className="w-5 h-5 text-accent fill-accent" />
-                <span className="text-sm font-semibold">{content.stats.rating}</span>
-              </div>
-              <div className="w-px h-6 bg-white/30"></div>
-              <div className="text-white text-sm font-medium">{content.stats.experience}</div>
-              <div className="w-px h-6 bg-white/30"></div>
-              <div className="text-white text-sm font-medium">{content.stats.clients}</div>
-              <div className="w-px h-6 bg-white/30"></div>
-              <div className="flex items-center gap-1 text-white">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Antibes</span>
-              </div>
-            </div>
-          </div>
 
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
